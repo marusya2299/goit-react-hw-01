@@ -1,0 +1,34 @@
+.list{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+
+    width: 100%;
+    border-top: 2.5px solid rgb(125, 125, 125);
+    background-color: rgb(199, 199, 199);
+}
+
+.elList{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: calc(100%/3);
+    padding-top: 8px;
+    padding-bottom: 8px;
+
+    border-right: 2.5px solid rgb(125, 125, 125);
+}
+
+.elList:last-child{
+    border-right: none;
+}
+
+.value{
+    font-weight: bold;
+}
+
+.label{
+
+}

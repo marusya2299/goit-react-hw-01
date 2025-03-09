@@ -1,0 +1,16 @@
+.online{
+    color: rgb(0, 188, 0);
+
+}
+
+.offline{
+    color: red;
+}
+
+.status{
+    font-size: small;
+}
+
+.img{
+    margin-bottom: 10px;
+}
